@@ -52,6 +52,7 @@ public class AdvancedDeltaV {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.ROCKET_CONTROL_CHIP);
+            event.accept(ModItems.STEEL);
         }
     }
 

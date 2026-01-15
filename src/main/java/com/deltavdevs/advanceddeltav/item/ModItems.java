@@ -11,6 +11,8 @@ public class ModItems {
 
     public static final DeferredItem<Item> ROCKET_CONTROL_CHIP = ITEMS.register("rocket_control_chip",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STEEL = ITEMS.register("steel",
+            () -> new Item(new Item.Properties()));
 
 
 
