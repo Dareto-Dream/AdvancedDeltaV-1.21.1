@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "advanceddeltav:item/rocket_control_chip"
+  }
+}

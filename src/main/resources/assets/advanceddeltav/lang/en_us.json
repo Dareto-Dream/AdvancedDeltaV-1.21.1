@@ -1,13 +1,11 @@
 {
-  "itemGroup.advanceddeltav": "Example Mod Tab",
-  "block.advanceddeltav.example_block": "Example Block",
-  "item.advanceddeltav.example_item": "Example Item",
-
   "advanceddeltav.configuration.title": "Advanced DeltaV Configs",
   "advanceddeltav.configuration.section.advanceddeltav.common.toml": "Advanced DeltaV Configs",
   "advanceddeltav.configuration.section.advanceddeltav.common.toml.title": "Advanced DeltaV Configs",
   "advanceddeltav.configuration.items": "Item List",
   "advanceddeltav.configuration.logDirtBlock": "Log Dirt Block",
   "advanceddeltav.configuration.magicNumberIntroduction": "Magic Number Text",
-  "advanceddeltav.configuration.magicNumber": "Magic Number"
+  "advanceddeltav.configuration.magicNumber": "Magic Number",
+
+  "item.advanceddeltav.rocket_control_chip": "Rocket Control Chip"
 }
