@@ -9,7 +9,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(AdvancedDeltaV.MODID);
 
-    public static final DeferredItem<Item> ROCKET_CONTROL_CHIP = ITEMS.register("rocket_control_chip",
+    public static final DeferredItem<Item> SMALL_CHIP_BASE = ITEMS.register("small_chip_base",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> STEEL = ITEMS.register("steel",
             () -> new Item(new Item.Properties()));

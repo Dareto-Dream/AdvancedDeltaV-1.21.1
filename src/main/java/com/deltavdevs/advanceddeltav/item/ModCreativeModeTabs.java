@@ -22,7 +22,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.STEEL_BLOCK);
                         output.accept(ModItems.STEEL);
-                        output.accept(ModItems.ROCKET_CONTROL_CHIP);
+                        output.accept(ModItems.SMALL_CHIP_BASE);
                     }).build());
 
 
