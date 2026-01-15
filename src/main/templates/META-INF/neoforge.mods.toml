@@ -42,11 +42,11 @@ displayName="${mod_name}" #mandatory
 #credits="" #optional
 
 # The authors of the mod, displayed in the mod UI (optional)
-authors="DeltaVDevs, Vynthral Networks"
+authors="DeltaVDevs, Vynthral Network"
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-Example mod description.
+A hyper-realistic Minecraft rocket mod, designed to provide you with the most accurate in-flight experience on the mod page.
 '''
 
 # The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.
