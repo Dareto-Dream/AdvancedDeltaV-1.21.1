@@ -7,5 +7,11 @@
   "advanceddeltav.configuration.magicNumberIntroduction": "Magic Number Text",
   "advanceddeltav.configuration.magicNumber": "Magic Number",
 
-  "item.advanceddeltav.rocket_control_chip": "Rocket Control Chip"
+  "item.advanceddeltav.rocket_control_chip": "Rocket Control Chip",
+  "item.advanceddeltav.steel": "Steel Ingot",
+
+  "block.advanceddeltav.steel_block": "Block of Steel",
+
+  "creativetab.advanceddeltav.rocket_parts": "Rocket Parts",
+  "creativetab.advanceddeltav.rocket_blocks": "Rocket Blocks"
 }
