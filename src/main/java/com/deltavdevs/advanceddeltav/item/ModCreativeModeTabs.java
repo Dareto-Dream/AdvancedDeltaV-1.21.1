@@ -16,18 +16,11 @@ public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TAB =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, AdvancedDeltaV.MODID);
 
-    public static final Supplier<CreativeModeTab> ROCKET_BLOCKS_TAB = CREATIVE_MODE_TAB.register("rocket_blocks_tab",
+    public static final Supplier<CreativeModeTab> BASICS_TAB = CREATIVE_MODE_TAB.register("basics_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.STEEL.get()))
-                    .title(Component.translatable("creativetab.advanceddeltav.rocket_blocks"))
+                    .title(Component.translatable("creativetab.advanceddeltav.basics"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.STEEL_BLOCK);
-                    }).build());
-
-    public static final Supplier<CreativeModeTab> ROCKET_PARTS_TAB = CREATIVE_MODE_TAB.register("rocket_parts_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.STEEL_BLOCK.get()))
-                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(AdvancedDeltaV.MODID, "rocket_blocks_tab"))
-                    .title(Component.translatable("creativetab.advanceddeltav.rocket_parts"))
-                    .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.STEEL);
                         output.accept(ModItems.ROCKET_CONTROL_CHIP);
                     }).build());
