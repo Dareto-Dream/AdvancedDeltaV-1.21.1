@@ -17,7 +17,7 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, AdvancedDeltaV.MODID);
 
     public static final Supplier<CreativeModeTab> BASICS_TAB = CREATIVE_MODE_TAB.register("basics_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.STEEL_INGOT.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SMALL_CHIP_BASE.get()))
                     .title(Component.translatable("creativetab.advanceddeltav.basics"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.STEEL_BLOCK);
