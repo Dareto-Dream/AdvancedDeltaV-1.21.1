@@ -20,6 +20,13 @@ public class ModBlocks {
     public static final DeferredBlock<Block> STEEL_BLOCK = registerBlock("steel_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+    public static final DeferredBlock<Block> LAVA_LAMP = registerBlock("lava_lamp",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(1f)
+                    .sound(SoundType.LANTERN)
+                    .lightLevel(state ->10)
+                    .emissiveRendering((state, level, pos) -> true)
+                    .isViewBlocking((state, level, pos) -> false)));
 
 
 

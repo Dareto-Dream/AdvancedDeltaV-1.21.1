@@ -23,6 +23,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.STEEL_BLOCK);
                         output.accept(ModItems.STEEL_INGOT);
                         output.accept(ModItems.SMALL_CHIP_BASE);
+                        output.accept(ModBlocks.LAVA_LAMP);
                     }).build());
 
 
