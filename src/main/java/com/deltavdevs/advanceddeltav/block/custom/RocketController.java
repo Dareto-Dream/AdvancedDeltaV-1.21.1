@@ -1,8 +1,7 @@
-package com.deltavdevs.advanceddeltav.block.cusom;
+package com.deltavdevs.advanceddeltav.block.custom;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
