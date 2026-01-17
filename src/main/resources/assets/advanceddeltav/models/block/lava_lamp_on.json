@@ -1,10 +1,12 @@
 {
 	"format_version": "1.9.0",
 	"credit": "Made with Blockbench",
+	"render_type": "minecraft:translucent",
+	"culling": false,
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "advanceddeltav:block/lava_lamp_orange",
-		"particle": "advanceddeltav:block/lava_lamp_orange"
+		"0": "advanceddeltav:block/lava_lamp_orange_on",
+		"particle": "advanceddeltav:block/lava_lamp_orange_on"
 	},
 	"elements": [
 		{

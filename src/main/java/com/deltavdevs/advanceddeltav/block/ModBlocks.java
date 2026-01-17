@@ -1,6 +1,7 @@
 package com.deltavdevs.advanceddeltav.block;
 
 import com.deltavdevs.advanceddeltav.AdvancedDeltaV;
+import com.deltavdevs.advanceddeltav.block.custom.LavaLamp;
 import com.deltavdevs.advanceddeltav.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -20,13 +21,13 @@ public class ModBlocks {
     public static final DeferredBlock<Block> STEEL_BLOCK = registerBlock("steel_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+
     public static final DeferredBlock<Block> LAVA_LAMP = registerBlock("lava_lamp",
-            () -> new Block(BlockBehaviour.Properties.of()
+            () -> new LavaLamp(BlockBehaviour.Properties.of()
+                    .noOcclusion()
                     .strength(1f)
                     .sound(SoundType.LANTERN)
-                    .lightLevel(state ->10)
-                    .emissiveRendering((state, level, pos) -> true)
-                    .isViewBlocking((state, level, pos) -> false)));
+            ));
 
 
 

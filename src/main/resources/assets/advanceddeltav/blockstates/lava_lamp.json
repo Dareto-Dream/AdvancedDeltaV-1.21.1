@@ -1,7 +1,10 @@
 {
   "variants": {
-    "": {
-      "model": "advanceddeltav:block/lava_lamp"
+    "active=false": {
+      "model": "advanceddeltav:block/lava_lamp_off"
+    },
+    "active=true": {
+      "model": "advanceddeltav:block/lava_lamp_on"
     }
   }
 }
