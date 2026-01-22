@@ -22,7 +22,7 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
 
-    public static final DeferredBlock<Block> LAVA_LAMP = registerBlock("lava_lamp",
+    public static final DeferredBlock<Block> ORANGE_LAVA_LAMP = registerBlock("orange_lava_lamp",
             () -> new LavaLamp(BlockBehaviour.Properties.of()
                     .noOcclusion()
                     .strength(1f)
