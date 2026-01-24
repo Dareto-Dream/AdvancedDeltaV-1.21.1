@@ -22,13 +22,72 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
 
+    public static final DeferredBlock<Block> RED_LAVA_LAMP = registerBlock("red_lava_lamp",
+            () -> new LavaLamp(BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .strength(1f)
+                    .sound(SoundType.LANTERN)
+            ));
     public static final DeferredBlock<Block> ORANGE_LAVA_LAMP = registerBlock("orange_lava_lamp",
             () -> new LavaLamp(BlockBehaviour.Properties.of()
                     .noOcclusion()
                     .strength(1f)
                     .sound(SoundType.LANTERN)
             ));
-
+    public static final DeferredBlock<Block> YELLOW_LAVA_LAMP = registerBlock("yellow_lava_lamp",
+            () -> new LavaLamp(BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .strength(1f)
+                    .sound(SoundType.LANTERN)
+            ));
+    public static final DeferredBlock<Block> LIME_LAVA_LAMP = registerBlock("lime_lava_lamp",
+            () -> new LavaLamp(BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .strength(1f)
+                    .sound(SoundType.LANTERN)
+            ));
+    public static final DeferredBlock<Block> GREEN_LAVA_LAMP = registerBlock("green_lava_lamp",
+            () -> new LavaLamp(BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .strength(1f)
+                    .sound(SoundType.LANTERN)
+            ));
+    public static final DeferredBlock<Block> CYAN_LAVA_LAMP = registerBlock("cyan_lava_lamp",
+            () -> new LavaLamp(BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .strength(1f)
+                    .sound(SoundType.LANTERN)
+            ));
+    public static final DeferredBlock<Block> LIGHT_BLUE_LAVA_LAMP = registerBlock("light_blue_lava_lamp",
+            () -> new LavaLamp(BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .strength(1f)
+                    .sound(SoundType.LANTERN)
+            ));
+    public static final DeferredBlock<Block> BLUE_LAVA_LAMP = registerBlock("blue_lava_lamp",
+            () -> new LavaLamp(BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .strength(1f)
+                    .sound(SoundType.LANTERN)
+            ));
+    public static final DeferredBlock<Block> PURPLE_LAVA_LAMP = registerBlock("purple_lava_lamp",
+            () -> new LavaLamp(BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .strength(1f)
+                    .sound(SoundType.LANTERN)
+            ));
+    public static final DeferredBlock<Block> MAGENTA_LAVA_LAMP = registerBlock("magenta_lava_lamp",
+            () -> new LavaLamp(BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .strength(1f)
+                    .sound(SoundType.LANTERN)
+            ));
+    public static final DeferredBlock<Block> PINK_LAVA_LAMP = registerBlock("pink_lava_lamp",
+            () -> new LavaLamp(BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .strength(1f)
+                    .sound(SoundType.LANTERN)
+            ));
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

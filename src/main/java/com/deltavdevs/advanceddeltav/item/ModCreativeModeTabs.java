@@ -23,7 +23,17 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.STEEL_BLOCK);
                         output.accept(ModItems.STEEL_INGOT);
                         output.accept(ModItems.SMALL_CHIP_BASE);
+                        output.accept(ModBlocks.RED_LAVA_LAMP);
                         output.accept(ModBlocks.ORANGE_LAVA_LAMP);
+                        output.accept(ModBlocks.YELLOW_LAVA_LAMP);
+                        output.accept(ModBlocks.LIME_LAVA_LAMP);
+                        output.accept(ModBlocks.GREEN_LAVA_LAMP);
+                        output.accept(ModBlocks.CYAN_LAVA_LAMP);
+                        output.accept(ModBlocks.LIGHT_BLUE_LAVA_LAMP);
+                        output.accept(ModBlocks.CYAN_LAVA_LAMP);
+                        output.accept(ModBlocks.PURPLE_LAVA_LAMP);
+                        output.accept(ModBlocks.MAGENTA_LAVA_LAMP);
+                        output.accept(ModBlocks.PINK_LAVA_LAMP);
                     }).build());
 
 

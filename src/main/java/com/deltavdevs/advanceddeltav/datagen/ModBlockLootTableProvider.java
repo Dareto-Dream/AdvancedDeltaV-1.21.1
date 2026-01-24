@@ -28,8 +28,28 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
     @Override
     protected void generate() {
         dropSelf(ModBlocks.STEEL_BLOCK.get());
+        add(ModBlocks.RED_LAVA_LAMP.get(),
+                block -> createMultipleOreDrops(ModBlocks.RED_LAVA_LAMP.get(), Items.GLASS, 1, 3));
         add(ModBlocks.ORANGE_LAVA_LAMP.get(),
                 block -> createMultipleOreDrops(ModBlocks.ORANGE_LAVA_LAMP.get(), Items.GLASS, 1, 3));
+        add(ModBlocks.YELLOW_LAVA_LAMP.get(),
+                block -> createMultipleOreDrops(ModBlocks.YELLOW_LAVA_LAMP.get(), Items.GLASS, 1, 3));
+        add(ModBlocks.LIME_LAVA_LAMP.get(),
+                block -> createMultipleOreDrops(ModBlocks.LIME_LAVA_LAMP.get(), Items.GLASS, 1, 3));
+        add(ModBlocks.GREEN_LAVA_LAMP.get(),
+                block -> createMultipleOreDrops(ModBlocks.GREEN_LAVA_LAMP.get(), Items.GLASS, 1, 3));
+        add(ModBlocks.CYAN_LAVA_LAMP.get(),
+                block -> createMultipleOreDrops(ModBlocks.CYAN_LAVA_LAMP.get(), Items.GLASS, 1, 3));
+        add(ModBlocks.LIGHT_BLUE_LAVA_LAMP.get(),
+                block -> createMultipleOreDrops(ModBlocks.LIGHT_BLUE_LAVA_LAMP.get(), Items.GLASS, 1, 3));
+        add(ModBlocks.BLUE_LAVA_LAMP.get(),
+                block -> createMultipleOreDrops(ModBlocks.BLUE_LAVA_LAMP.get(), Items.GLASS, 1, 3));
+        add(ModBlocks.PURPLE_LAVA_LAMP.get(),
+                block -> createMultipleOreDrops(ModBlocks.PURPLE_LAVA_LAMP.get(), Items.GLASS, 1, 3));
+        add(ModBlocks.MAGENTA_LAVA_LAMP.get(),
+                block -> createMultipleOreDrops(ModBlocks.MAGENTA_LAVA_LAMP.get(), Items.GLASS, 1, 3));
+        add(ModBlocks.PINK_LAVA_LAMP.get(),
+                block -> createMultipleOreDrops(ModBlocks.PINK_LAVA_LAMP.get(), Items.GLASS, 1, 3));
     }
 
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {

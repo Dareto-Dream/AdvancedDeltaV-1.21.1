@@ -11,7 +11,17 @@
   "item.advanceddeltav.steel_ingot": "Steel Ingot",
 
   "block.advanceddeltav.steel_block": "Block of Steel",
+  "block.advanceddeltav.red_lava_lamp": "Red Lava Lamp",
   "block.advanceddeltav.orange_lava_lamp": "Orange Lava Lamp",
+  "block.advanceddeltav.yellow_lava_lamp": "Yellow Lava Lamp",
+  "block.advanceddeltav.lime_lava_lamp": "Lime Lava Lamp",
+  "block.advanceddeltav.green_lava_lamp": "Green Lava Lamp",
+  "block.advanceddeltav.cyan_lava_lamp": "Cyan Lava Lamp",
+  "block.advanceddeltav.light_blue_lava_lamp": "Light Blue Lava Lamp",
+  "block.advanceddeltav.blue_lava_lamp": "Blue Lava Lamp",
+  "block.advanceddeltav.purple_lava_lamp": "Ourple Lava Lamp",
+  "block.advanceddeltav.magenta_lava_lamp": "Magenta Lava Lamp",
+  "block.advanceddeltav.pink_lava_lamp": "Pink Lava Lamp",
 
   "creativetab.advanceddeltav.basics": "ADV: Basics"
 }
