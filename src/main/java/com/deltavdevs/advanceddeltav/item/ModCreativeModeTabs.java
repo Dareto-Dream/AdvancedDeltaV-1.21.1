@@ -30,7 +30,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.GREEN_LAVA_LAMP);
                         output.accept(ModBlocks.CYAN_LAVA_LAMP);
                         output.accept(ModBlocks.LIGHT_BLUE_LAVA_LAMP);
-                        output.accept(ModBlocks.CYAN_LAVA_LAMP);
+                        output.accept(ModBlocks.BLUE_LAVA_LAMP);
                         output.accept(ModBlocks.PURPLE_LAVA_LAMP);
                         output.accept(ModBlocks.MAGENTA_LAVA_LAMP);
                         output.accept(ModBlocks.PINK_LAVA_LAMP);
