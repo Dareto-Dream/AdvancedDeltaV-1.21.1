@@ -18,7 +18,14 @@ version = mod_version
 group = mod_group_id
 
 repositories {
-    // Add here additional repositories if required by some of the dependencies below.
+    maven {
+        name = 'Valkyrien Skies'
+        url = 'https://maven.valkyrienskies.org'
+    }
+    maven {
+        name = 'Kotlin for Forge'
+        url = 'https://thedarkcolour.github.io/KotlinForForge/'
+    }
 }
 
 base {
@@ -112,27 +119,21 @@ configurations {
 }
 
 dependencies {
-    // Example optional mod dependency with JEI
-    // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
-    // compileOnly "mezz.jei:jei-${mc_version}-common-api:${jei_version}"
-    // compileOnly "mezz.jei:jei-${mc_version}-neoforge-api:${jei_version}"
-    // We add the full version to localRuntime, not runtimeOnly, so that we do not publish a dependency on it
-    // localRuntime "mezz.jei:jei-${mc_version}-neoforge:${jei_version}"
+    // Valkyrien Skies runtime mod for local dev/test runs.
+    localRuntime("org.valkyrienskies:valkyrienskies-1-21-1-forge:${vs2_version}") {
+        transitive = false
+    }
 
-    // Example mod dependency using a mod jar from ./libs with a flat dir repository
-    // This maps to ./libs/coolmod-${mc_version}-${coolmod_version}.jar
-    // The group id is ignored when searching -- in this case, it is "blank"
-    // implementation "blank:coolmod-${mc_version}:${coolmod_version}"
+    // VS requires Kotlin For Forge in NeoForge development environments.
+    localRuntime "thedarkcolour:kotlinforforge-neoforge:${kff_version}"
 
-    // Example mod dependency using a file as dependency
-    // implementation files("libs/coolmod-${mc_version}-${coolmod_version}.jar")
-
-    // Example project dependency using a sister or child project:
-    // implementation project(":myproject")
-
-    // For more info:
-    // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
-    // http://www.gradle.org/docs/current/userguide/dependency_management.html
+    // Public VSCore API surface for RocketLab integration code.
+    compileOnly("org.valkyrienskies.core:api:${vs_core_version}") {
+        exclude group: 'org.joml', module: ''
+    }
+    compileOnly("org.valkyrienskies.core:util:${vs_core_version}") {
+        exclude group: 'org.joml', module: ''
+    }
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.
@@ -147,6 +148,7 @@ var generateModMetadata = tasks.register("generateModMetadata", ProcessResources
             mod_name               : mod_name,
             mod_license            : mod_license,
             mod_version            : mod_version,
+            vs2_version            : vs2_version,
     ]
     inputs.properties replaceProperties
     expand replaceProperties
