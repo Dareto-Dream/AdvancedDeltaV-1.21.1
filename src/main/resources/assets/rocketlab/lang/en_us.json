@@ -1,0 +1,27 @@
+{
+  "rocketlab.configuration.title": "RocketLab Configs",
+  "rocketlab.configuration.section.rocketlab.common.toml": "RocketLab Configs",
+  "rocketlab.configuration.section.rocketlab.common.toml.title": "RocketLab Configs",
+  "rocketlab.configuration.items": "Item List",
+  "rocketlab.configuration.logDirtBlock": "Log Dirt Block",
+  "rocketlab.configuration.magicNumberIntroduction": "Magic Number Text",
+  "rocketlab.configuration.magicNumber": "Magic Number",
+
+  "item.rocketlab.small_chip_base": "Small Chip Base",
+  "item.rocketlab.steel_ingot": "Steel Ingot",
+
+  "block.rocketlab.steel_block": "Block of Steel",
+  "block.rocketlab.red_lava_lamp": "Red Lava Lamp",
+  "block.rocketlab.orange_lava_lamp": "Orange Lava Lamp",
+  "block.rocketlab.yellow_lava_lamp": "Yellow Lava Lamp",
+  "block.rocketlab.lime_lava_lamp": "Lime Lava Lamp",
+  "block.rocketlab.green_lava_lamp": "Green Lava Lamp",
+  "block.rocketlab.cyan_lava_lamp": "Cyan Lava Lamp",
+  "block.rocketlab.light_blue_lava_lamp": "Light Blue Lava Lamp",
+  "block.rocketlab.blue_lava_lamp": "Blue Lava Lamp",
+  "block.rocketlab.purple_lava_lamp": "Ourple Lava Lamp",
+  "block.rocketlab.magenta_lava_lamp": "Magenta Lava Lamp",
+  "block.rocketlab.pink_lava_lamp": "Pink Lava Lamp",
+
+  "creativetab.rocketlab.basics": "RL: Basics"
+}
